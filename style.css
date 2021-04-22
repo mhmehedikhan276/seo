@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/********Nav bar start******/
+.nav-barr {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar {
+  background-image: linear-gradient(to right,#a517ba,#5f1782);
+}
+.navbar-nav li {
+  padding: 0 10px;
+}
+.navbar-nav li a {
+  color: white!important;
+  float: right;
+  text-align: center;
+  margin-right: 50px;
+}
+.fa-bars {
+  color: white!important;
+  font-size: 30px;
+}
+.navbar-toggler {
+  outline: none!important;
+  border: none!important;
+}
+.navbar-brand {
+  color: white!important;
+}
+/********Nav bar End******/
+/********Banner start******/
+.banner {
+  background-image: linear-gradient(to right,#a517ba,#5f1782);
+  padding: 5%;
+  color: white;
+  overflow: hidden;
+}
+.bnrtext h3 {
+  margin-top: 80px;
+}
+.playbtn a {
+  text-decoration: none;
+  color: white;
+}
+.playbtn a:hover {
+  color: black;
+  text-decoration: none;
+}
+.fa-play {
+  padding: 13px;
+  border: 2px solid white;
+  color: white;
+  border-radius: 50%;
+  margin: 20px;
+}
+.bnimg {
+ margin-top: 80px;
+}
+.wavegd {
+  background-image: linear-gradient(to right,#a517ba,#5f1782);
+  overflow: hidden;
+  margin: 0;
+}
+.bnbottomimg {
+  width: 100%!important;
+}
+/********Banner End******/
+/********Services start******/
+.services {
+  padding: 20px;
+}
+.servicbox img {
+  width: 150px;
+  margin-top: 10px;
+}
+.servicbox h4 {
+  padding: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+.srtittle {
+  margin-top: 40px;
+}
+.srtittle::before {
+  content: '';
+  width: 200px;
+  height: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #a517ba;
+  display: block;
+  transform: translateY(63px);
+}
+.srtittle::after {
+  content: '';
+  width: 50px;
+  height: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #a517ba;
+  display: block;
+  transform: translateY(8px);
+}
+.mhbtn {
+  border: none;
+  outline: none;
+  background-image: linear-gradient(to right,#a517ba,#5f1782);
+  border-radius: 10px;
+  padding: 8px 20px;
+  color: white;
+  margin-top: 8px;
+}
+/********Services End******/
+/********About start******/
+.about  {
+  padding: 50px 0;
+}
+.aboutbox p {
+  font-size: 25px;
+  margin-top: 20px;
+}
+.aboutbox ul li {
+  margin: 10px 0;
+  font-size: 20px;
+}
+.aboutbox ul {
+  margin-left: 20px;
+}
+/********About  End******/
+/*----testimonial section start---*/
+.testimonial {
+  padding: 50px 0;
+}
+.testimon {
+  border-left: 4px solid #a517ba;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.testimon img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.tesdet {
+  display: inline-block;
+  font-size: 20px;
+}
+/*----testimonial section End ---*/
+ /*-----social section Start ---*/
+.social_media {
+  padding-top: 60px;
+  padding-bottom: 80px;
+  
+}
+.social_icons {
+  margin-top: 40px;
+}
+.social_icons a i {
+  text-decoration: none;
+  color: rgba(168,13,156,1);
+  font-size: 40px;
+  padding: 0 10px;
+  transition:0.5s;
+}
+.social_icons a i:hover {
+  transform: translateY(-10px);
+  color: rgba(192,117,229,1);
+}
+ /*-----social section End ---*/
+ /*-----Footer section start ---*/
+footer {
+ background-image: linear-gradient(to right,#a517ba,#5f1782); 
+ color: white;
+}
+.ftrimg {
+  width: 100%;
+}
+.ftbox {
+  padding: 20px;
+}
+.ftbox .fa {
+  margin-right: 8px;
+  font-size: 20px;
+  padding-top: 8px;
+  height: 40px;
+  width: 40px;
+  border-radius: 2px;
+  background-image: linear-gradient(to right,#5f1782,#a517ba);
+  text-align: center;
+}
+footer .form-control {
+  box-shadow: none!important;
+  border: none;
+  margin-top: 25px;
+  max-width: 250px;
+}
+footer .btn-primary {
+  box-shadow: none!important;
+  border: none;
+  background-image: linear-gradient(to right,#5f1782,#a517ba);
+  margin-top: 25px;
+}
+hr {
+  background-color: white;
+}
+.cprt {
+  margin: 0;
+  padding-bottom: 20px;
+}
+ /*-----Footer section End ---*/
